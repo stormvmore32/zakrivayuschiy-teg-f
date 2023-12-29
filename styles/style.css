@@ -398,7 +398,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  padding-block-start: 54px;
+  padding-block-start: 50px;
   padding-block-end: clamp(6.375rem, 6.309rem + 0.282vw, 6.563rem);
 }
 
@@ -430,6 +430,9 @@
   gap: 8px;
   align-items: center;
   flex-direction: column;
+  width: clamp(19.125rem, 18.487rem + 2.723vw, 20.938rem);
+  height: clamp(5.25rem, 5.888rem + -2.723vw, 3.438rem);
+  padding-block: 15px;
 }
 
 .floppy-img {
