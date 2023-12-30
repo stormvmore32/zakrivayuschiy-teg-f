@@ -20,7 +20,7 @@
   max-inline-size: 1440px;
   font-family: var(--main-font);
   color: var(--accent-color);
-  /* font-variation-settings: "wgth" var(--weight-main-font); */
+  font-variation-settings: "wgth" var(--weight-main-font);
   background-color: var(--background-color);
   background-image: repeating-linear-gradient(
       90deg,
@@ -58,7 +58,6 @@
   padding-block-start: clamp(7.5rem, 7.148rem + 1.502vw, 8.5rem);
   padding-block-end: 25px;
   font-family: var(--accent-font);
-  font-variation-settings: "wgth" var(--weight-main-text), "slnt" normal;
   border: 2px solid var(--accent-color);
 }
 
@@ -153,6 +152,7 @@
 
 .card-sprint {
   font-family: var(--main-font);
+  font-variation-settings: "wgth" var(--weight-main-font), "slnt" normal;
   border: 2px solid var(--accent-color);
 }
 
@@ -170,7 +170,8 @@
 }
 
 .text-card {
-  font-family: var(--main-font);
+  /* font-family: var(--main-font);
+  font-variation-settings: "wgth" var(--weight-main-font), "slnt" normal; */
   font-size: 18px;
   line-height: 21px;
   font-style: normal;
@@ -190,8 +191,9 @@
 
 .decor-element-images {
   font-family: var(--accent-font);
-  font-variation-settings: "wgth" var(--weight-main-text), "slnt" normal;
   font-size: 14px;
+  font-style: normal;
+  font-weight: var(--weight-main-text);
   line-height: normal;
   position: absolute;
   z-index: 1;
@@ -383,8 +385,9 @@
 
 .button__text {
   font-family: var(--accent-font);
-  font-variation-settings: "wgth" var(--weight-main-text), "slnt" normal;
   font-size: 14px;
+  font-style: normal;
+  font-weight: var(--weight-main-text);
   line-height: 90%;
   position: relative;
   z-index: 2;
@@ -459,8 +462,9 @@
 .dialog-text {
   color: var(--accent-color);
   font-family: var(--accent-font);
-  font-variation-settings: "wgth" var(--weight-main-text), "slnt" normal;
   font-size: 14px;
+  font-style: normal;
+  font-weight: var(--weight-main-text);
   line-height: 150%; /* 21px */
   text-transform: uppercase;
   padding-block-end: 30px;
@@ -477,8 +481,9 @@
   background-color: transparent;
   color: var(--accent-color);
   font-family: var(--accent-font);
-  font-variation-settings: "wgth" var(--weight-main-text), "slnt" normal;
   font-size: 14px;
+  font-style: normal;
+  font-weight: var(--weight-main-text);
   line-height: 90%; /* 12.6px */
   text-transform: uppercase;
   width: 100%;
