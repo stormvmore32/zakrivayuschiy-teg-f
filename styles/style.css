@@ -189,9 +189,8 @@
 
 .decor-element-images {
   font-family: var(--accent-font);
+  font-variation-settings: "wgth" var(--weight-main-text) "slnt" normal;
   font-size: 14px;
-  font-style: normal;
-  font-weight: var(--weight-main-text);
   line-height: normal;
   position: absolute;
   z-index: 1;
@@ -383,9 +382,8 @@
 
 .button__text {
   font-family: var(--accent-font);
+  font-variation-settings: "wgth" var(--weight-main-text) "slnt" normal;
   font-size: 14px;
-  font-style: normal;
-  font-weight: var(--weight-main-text);
   line-height: 90%;
   position: relative;
   z-index: 2;
@@ -460,9 +458,8 @@
 .dialog-text {
   color: var(--accent-color);
   font-family: var(--accent-font);
+  font-variation-settings: "wgth" var(--weight-main-text) "slnt" normal;
   font-size: 14px;
-  font-style: normal;
-  font-weight: var(--weight-main-text);
   line-height: 150%; /* 21px */
   text-transform: uppercase;
   padding-block-end: 30px;
@@ -479,9 +476,8 @@
   background-color: transparent;
   color: var(--accent-color);
   font-family: var(--accent-font);
+  font-variation-settings: "wgth" var(--weight-main-text) "slnt" normal;
   font-size: 14px;
-  font-style: normal;
-  font-weight: var(--weight-main-text);
   line-height: 90%; /* 12.6px */
   text-transform: uppercase;
   width: 100%;
