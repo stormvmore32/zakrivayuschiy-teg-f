@@ -58,6 +58,7 @@
   padding-block-start: clamp(7.5rem, 7.148rem + 1.502vw, 8.5rem);
   padding-block-end: 25px;
   font-family: var(--accent-font);
+  font-variation-settings: "wgth" var(--weight-main-text) "slnt" normal;
   border: 2px solid var(--accent-color);
 }
 
