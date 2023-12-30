@@ -162,8 +162,7 @@
 
 .card-title {
   font-size: 18px;
-  font-style: normal;
-  font-weight: var(--weight-accent-text);
+  font-variation-settings: "wgth" var(--weight-accent-text), "slnt" normal;
   line-height: normal;
   padding: 2px 10px 8px;
   border-block-end: 2px solid var(--accent-color);
@@ -175,7 +174,7 @@
   font-size: 18px;
   line-height: 21px;
   font-style: normal;
-  font-weight: var(--weight-main-text);
+  font-variation-settings: "wgth" var(--weight-main-font);
   padding: 25px 25px 0;
 }
 
