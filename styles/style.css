@@ -18,7 +18,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   max-inline-size: 1440px;
-  font-family: var(--main-font);
+  font-family: var(--main-font), "Arial", sans-serif;
   color: var(--accent-color);
   font-variation-settings: "wgth" var(--weight-main-font);
   background-color: var(--background-color);
@@ -151,7 +151,7 @@
 }
 
 .card-sprint {
-  font-family: var(--main-font);
+  font-family: var(--main-font), "Arial", sans-serif;
   font-variation-settings: "wgth" var(--weight-main-font), "slnt" normal;
   border: 2px solid var(--accent-color);
 }
