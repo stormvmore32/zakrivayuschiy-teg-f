@@ -187,12 +187,14 @@
   right: clamp(0.688rem, 0.379rem + 1.315vw, 1.563rem);
   z-index: 1;
   opacity: 0.5;
+  text-shadow: -1px 0 var(--text-stroke-color), 0 1px var(--text-stroke-color), 1px 0 var(--text-stroke-color), 0 -1px var(--text-stroke-color);
 }
 
 @supports ((text-stroke: 1px #000000) or (-webkit-text-stroke: 1px #000000)) {
   .decor-element-images {
     -webkit-text-stroke: 0.5px var(--text-stroke-color);
-    /* text-stroke: 0.5px var(--text-stroke-color); */
+    text-stroke: 0.5px var(--text-stroke-color);
+    text-shadow: none;
   }
 }
 
@@ -250,14 +252,6 @@
   cursor: pointer;
   transition: 0.3s ease;
 }
-
-/* .card__icon-button:focus {
-  outline: none;
-}
-
-.card__icon-button:focus-visible {
-  border: 2px solid var(--accent-color);
-} */
 
 .card__icon-button:focus-visible {
   outline: none;
