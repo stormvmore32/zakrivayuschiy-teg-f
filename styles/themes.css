@@ -19,8 +19,24 @@
   --text-stroke-color: #000000;
 }
 
+:root.theme-light {
+  --weight-main-text: 400;
+  --weight-accent-text: 700;
+  --background-color: #fff;
+  --button-text-color: #fff;
+  --floppy-color: #fff;
+  --main-body-core-color: transparent;
+  --contour-color: #000;
+  --sparks-color: red;
+  --accent-color: #000;
+  --color-gradient-1: #d3d3d3;
+  --color-gradient-transition-1: #e7e7e7;
+  --color-gradient-transition-2: #1a1a1a;
+  --text-stroke-color: #fff;
+}
+
 @media (prefers-color-scheme: dark) {
-  .theme-auto {
+  :root {
     --weight-main-text: 465;
     --weight-accent-text: 785;
     --background-color: #000;
