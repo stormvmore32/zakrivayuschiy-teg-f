@@ -578,24 +578,24 @@
           aria-controls="dialog-id"
         >
           <svg class="floppy-img">
-            <use href="#floppy-3" />
+            <use href="./svg/floppy-1.svg#floppy-1" />
           </svg>
           <span class="button__text">Сохранить на&nbsp;память</span>
         </button>
         <dialog id="dialog-id" class="dialog">
           <div class="dialog-block">
             <svg class="floppy-img">
-              <use href="#floppy-2" width="39" height="39" />
+              <use href="/svg/floppy-2.svg#floppy-2" width="39" height="39" />
             </svg>
             <p class="dialog-text">Вставьте дискету, чтобы продолжить</p>
           </div>
           <form method="dialog">
             <button
-              class="button close"
+              class="button interactive-text__button close"
               type="submit"
               onclick="window['dialog-id'].close();"
             >
-              ок
+              <span class="button__text">ок</span>
             </button>
           </form>
         </dialog>
@@ -606,7 +606,7 @@
 </html>
 
 <!-- С новым годом! Большое спасибо за твою работу:) -->
-<svg xmlns="http://www.w3.org/2000/svg">
+<!-- <svg xmlns="http://www.w3.org/2000/svg">
   <symbol id="floppy-1" stroke="currentColor" fill="currentColor">
     <path
       fill="currentColor"
@@ -743,4 +743,4 @@
       d="M21 9.693h-1.615V8.078H21zM21 8.077h-1.615V6.462H21zM21 6.462h-1.615V4.847H21zM21 4.846h-1.615V3.231H21z"
     />
   </symbol>
-</svg>
+</svg> -->
