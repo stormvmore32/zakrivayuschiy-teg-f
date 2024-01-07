@@ -169,7 +169,7 @@
   font-variation-settings: "wgth" var(--weight-main-font), "slnt" normal;
 }
 
-.personal-text {
+.text-card:not(:first-child) {
   padding-block-start: 27px;
 }
 
