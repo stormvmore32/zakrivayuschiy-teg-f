@@ -48,9 +48,11 @@
 }
 
 .header,
-.main,
-.footer {
+.main {
   margin-inline: clamp(0rem, -8.187rem + 34.93vw, 23.25rem);
+}
+
+.header {
   background-color: var(--background-color);
 }
 
@@ -141,6 +143,7 @@
   font-family: var(--main-font), "Arial", sans-serif;
   font-variation-settings: "wgth" var(--weight-main-font), "slnt" normal;
   outline: 2px solid var(--accent-color);
+  background-color: var(--background-color);
 }
 
 .card-sprint:not(:last-child) {
@@ -312,7 +315,7 @@
 .floppy__button {
   display: flex;
   justify-content: center;
-  padding-block-end: clamp(6.375rem, 6.309rem + 0.282vw, 6.563rem);
+  margin-block-end: clamp(6.25rem, 6.184rem + 0.282vw, 6.438rem);
 }
 
 .floppy-button-container {
@@ -321,6 +324,7 @@
   gap: 8px;
   align-items: center;
   padding: 15px 20px;
+  background-color: var(--background-color);
 }
 
 @media (width >= 768px) {
